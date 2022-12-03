@@ -1,0 +1,84 @@
+Started by user [8mha:////4ArjzqeTxUhNPyxoCH62adbG4ctP8WB4fG6exlxxswS3AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL9lNTUgsTslNQyAD6R08/EAAAA[0mDEEPAK DEV M
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/my_first_job
+[my_first_job] $ /bin/sh -xe /tmp/jenkins7340620260913751735.sh
++ ls
+1.sh
+D1
+D4
+Hard1
+Maharashtra
+Tn
+aaaa
+abcepak
+abcv
+abcv1.txt
+abcv2.txt
+agefile
+apache.sh
+arith.sh
+arith2.sh
+case1.sh
+cccc
+dak
+dddd
+ddm
+dee
+deploy.sh
+f11.txt
+file20
+hard2
+hard3
+hotelmenu.sh
+karnataka
+karnatakaa
+memoryscript.sh
+movedfiles
+myf
+nohup.out
+outing
+patornot
+processscript.sh
+q1
+q2
+q3
+q4
+q5
+q6
+q7
+q8
+retainfiles.sh
+reverses.sh
+rmbottom5file.sh
+s1.sh
+s2.sh
+s3.sh
+s4.sh
+s5.sh
+s6.sh
+s7.sh
+s8.sh
+sample
+sc1.sh
+sc10.sh
+sc11.sh
+sc12.sh
+sc13.sh
+sc2.sh
+sc5.sh
+sc6.sh
+sc7.sh
+sc8.sh
+sc9.sh
+sch14.sh
+sch15.sh
+sch16.sh
+sch17.sh
+script1.sh
+script2.sh
+soft2
+stringrepll.sh
+v5
++ pwd
+/var/lib/jenkins/workspace/my_first_job
+Finished: SUCCESS
