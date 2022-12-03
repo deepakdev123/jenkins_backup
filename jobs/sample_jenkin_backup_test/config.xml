@@ -13,8 +13,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>ls
-pwd</command>
+      <command>ls</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
