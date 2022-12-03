@@ -1,0 +1,18 @@
+commit 53395850b3e479b99149243c94f11b5a7723b178
+tree 8928b9165705a4d56070c14a247badc56d9537ff
+parent 4ce3a8736c814da0f1399e48339c5dd210852ed7
+author deepakdev123 <118237041+deepakdev123@users.noreply.github.com> 2022-11-26 20:55:28 +0530
+committer GitHub <noreply@github.com> 2022-11-26 20:55:28 +0530
+
+    Update dak
+
+:100644 100644 44efe7564b0d1547763071e6f5f29105ccae852e ba79c735da182f279548633947beb0d40fe04f93 M	dak
+commit 4ce3a8736c814da0f1399e48339c5dd210852ed7
+tree f6c0bc0dab5a0f78f307a1eef609bafcf2ea999b
+parent 6118dd386e71ef93436adb58dfe82f138dbf26c4
+author deepakdev123 <118237041+deepakdev123@users.noreply.github.com> 2022-11-26 20:48:35 +0530
+committer GitHub <noreply@github.com> 2022-11-26 20:48:35 +0530
+
+    Update arith.sh
+
+:100755 100755 96ad5bbcc8439a819c95e1fd4283508e02c72623 f6533ff02896146c787c99be448e2908ec496de3 M	arith.sh

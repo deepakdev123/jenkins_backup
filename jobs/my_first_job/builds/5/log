@@ -1,0 +1,19 @@
+Started by user [8mha:////4ArjzqeTxUhNPyxoCH62adbG4ctP8WB4fG6exlxxswS3AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL9lNTUgsTslNQyAD6R08/EAAAA[0mDEEPAK DEV M
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/my_first_job
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/my_first_job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/deepakdev123/myrepo.git # timeout=10
+Fetching upstream changes from https://github.com/deepakdev123/myrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/deepakdev123/myrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 6118dd386e71ef93436adb58dfe82f138dbf26c4 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6118dd386e71ef93436adb58dfe82f138dbf26c4 # timeout=10
+Commit message: "Update agefile"
+ > git rev-list --no-walk f085264b0d9ecbea3b3be3f46a6f9aeb6e8dc6aa # timeout=10
+Finished: SUCCESS

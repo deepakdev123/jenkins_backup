@@ -1,0 +1,8 @@
+Started by user [8mha:////4ArjzqeTxUhNPyxoCH62adbG4ctP8WB4fG6exlxxswS3AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL9lNTUgsTslNQyAD6R08/EAAAA[0mDEEPAK DEV M
+Running as SYSTEM
+Building remotely on [8mha:////4E4t8SYxvuYRmUQetcWrI/77zdXT68nT1VNAQqXft93qAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (build_server) in workspace /home/jenkins/workspace/tomcat and maven installation
+[tomcat and maven installation] $ /bin/sh -xe /tmp/jenkins16831752230073211323.sh
++ sh tommaven.sh
+sh: 0: cannot open tommaven.sh: No such file
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

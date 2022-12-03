@@ -1,0 +1,55 @@
+Started by user [8mha:////4ArjzqeTxUhNPyxoCH62adbG4ctP8WB4fG6exlxxswS3AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL9lNTUgsTslNQyAD6R08/EAAAA[0mDEEPAK DEV M
+Running as SYSTEM
+Building remotely on [8mha:////4E4t8SYxvuYRmUQetcWrI/77zdXT68nT1VNAQqXft93qAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (build_server) in workspace /home/jenkins/workspace/my_first_job
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/deepakdev123/myrepo.git
+ > git init /home/jenkins/workspace/my_first_job # timeout=10
+Fetching upstream changes from https://github.com/deepakdev123/myrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/deepakdev123/myrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/deepakdev123/myrepo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 8865b3b17706ab664798d31cf1ea456d2e9b260c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8865b3b17706ab664798d31cf1ea456d2e9b260c # timeout=10
+Commit message: "Update dak"
+ > git rev-list --no-walk 8865b3b17706ab664798d31cf1ea456d2e9b260c # timeout=10
+[my_first_job] $ /bin/sh -xe /tmp/jenkins14849378831256698863.sh
++ sh apache.sh
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock directory /var/lib/apt/lists/
+W: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)
+W: Problem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+--2022-11-27 08:18:44--  https://downloads.apache.org/tomcat/tomcat-10/v10.0.27/bin/apache-tomcat-10.0.27.tar.gz
+Resolving downloads.apache.org (downloads.apache.org)... 135.181.214.104, 88.99.95.219, 2a01:4f8:10a:201a::2, ...
+Connecting to downloads.apache.org (downloads.apache.org)|135.181.214.104|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 11984522 (11M) [application/x-gzip]
+apache-tomcat-10.0.27.tar.gz: Permission denied
+
+Cannot write to ‘apache-tomcat-10.0.27.tar.gz’ (Success).
+tar (child): apache-tomcat-10.0.27.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+sh: 0: cannot open apache-tomcat-10.0.27/bin/startup.sh: Permission denied
+Finished: SUCCESS

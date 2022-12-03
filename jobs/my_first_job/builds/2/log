@@ -1,0 +1,19 @@
+Started by user [8mha:////4ArjzqeTxUhNPyxoCH62adbG4ctP8WB4fG6exlxxswS3AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL9lNTUgsTslNQyAD6R08/EAAAA[0mDEEPAK DEV M
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/my_first_job
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/my_first_job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/deepakdev123/myrepo.git # timeout=10
+Fetching upstream changes from https://github.com/deepakdev123/myrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/deepakdev123/myrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision a566464611ed9edd5b5158440f4dde10fbf54467 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a566464611ed9edd5b5158440f4dde10fbf54467 # timeout=10
+Commit message: "Update case1.sh"
+ > git rev-list --no-walk 72f0492dfd69096168559c4b1a155b07e918a626 # timeout=10
+Finished: SUCCESS

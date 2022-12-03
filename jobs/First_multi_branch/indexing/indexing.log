@@ -1,0 +1,29 @@
+Started by user [8mha:////4ArjzqeTxUhNPyxoCH62adbG4ctP8WB4fG6exlxxswS3AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL9lNTUgsTslNQyAD6R08/EAAAA[0mDEEPAK DEV M
+[Fri Dec 02 08:33:44 UTC 2022] Starting branch indexing...
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote --symref -- https://github.com/deepakdev123/hello-world-war.git # timeout=10
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-cf34fcea42788160970a8112dfcd918f/.git # timeout=10
+Setting origin to https://github.com/deepakdev123/hello-world-war.git
+ > git config remote.origin.url https://github.com/deepakdev123/hello-world-war.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote -h -- https://github.com/deepakdev123/hello-world-war.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --tags --force --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch multi_test
+      ‘Jenkinsfiles’ found
+    Met criteria
+No changes detected: multi_test (still at 92d7ce5c485e9d2a0cda52365e8b51f869acb88f)
+  Checking branch master
+      ‘Jenkinsfiles’ found
+    Met criteria
+No changes detected: master (still at 92d7ce5c485e9d2a0cda52365e8b51f869acb88f)
+Processed 2 branches
+[Fri Dec 02 08:33:47 UTC 2022] Finished branch indexing. Indexing took 2.7 sec
+Finished: SUCCESS

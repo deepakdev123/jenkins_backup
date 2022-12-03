@@ -1,0 +1,22 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/my_second_j
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/deepakdev123/myrepo.git
+ > git init /var/lib/jenkins/workspace/my_second_j # timeout=10
+Fetching upstream changes from https://github.com/deepakdev123/myrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/deepakdev123/myrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/deepakdev123/myrepo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 4ce3a8736c814da0f1399e48339c5dd210852ed7 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4ce3a8736c814da0f1399e48339c5dd210852ed7 # timeout=10
+Commit message: "Update arith.sh"
+First time build. Skipping changelog.
+Finished: SUCCESS

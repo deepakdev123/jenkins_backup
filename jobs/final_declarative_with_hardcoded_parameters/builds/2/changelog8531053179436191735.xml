@@ -1,0 +1,9 @@
+commit 40350d2bd19bb651ca9841096f922321c3eb66c6
+tree 09adfb994917e12565d3f5a346822cc631853153
+parent 2f4a3753a72b28cce1d928187d517c629ce67502
+author deepakdev123 <118237041+deepakdev123@users.noreply.github.com> 2022-12-02 12:39:50 +0530
+committer GitHub <noreply@github.com> 2022-12-02 12:39:50 +0530
+
+    Update Jenkinsfile2
+
+:100644 100644 6947d7a86f216423cf61112d7e14775c987ee9da a48fd02ae82d0c662a8beba7f1645001552515b1 M	Jenkinsfile2

@@ -1,0 +1,33 @@
+Started by GitHub push by deepakdev123
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/my_second_j
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/my_second_j/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/deepakdev123/myrepo.git # timeout=10
+Fetching upstream changes from https://github.com/deepakdev123/myrepo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/deepakdev123/myrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 8865b3b17706ab664798d31cf1ea456d2e9b260c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8865b3b17706ab664798d31cf1ea456d2e9b260c # timeout=10
+Commit message: "Update dak"
+ > git rev-list --no-walk 7ce0c48642d73f6044ec4c83364fea460ad48999 # timeout=10
+[my_second_j] $ /bin/sh -xe /tmp/jenkins3908891408737512778.sh
++ cat dak
+age name place id phone prof
+21 deepak mys 002 974 student
+22 karthik bang 899 956 enginerer
+38 manj mang 777 888 scientist
+26 virat mand 444 555 doctor
+15 sachin channp 123 855 tech
+ddevvvvv
+dddddd
+karthik
+deepak
+Hi deepak
+qwerty Hiii
+Finished: SUCCESS

@@ -1,0 +1,18 @@
+commit b21245eef0da9faf27812338b87e0818248f594a
+tree e3a557407cb5315e9df01d8835be95b20d20153f
+parent 205ed9745fa05736974ed912125a504b06ff4912
+author deepakdev123 <118237041+deepakdev123@users.noreply.github.com> 2022-11-30 07:49:35 +0530
+committer GitHub <noreply@github.com> 2022-11-30 07:49:35 +0530
+
+    Update Jenkinsfile
+
+:100644 100644 75e62856daea03f5907d4a45ca80c597594144ac 0d64acf8f2e10d8df65c14e36c8ab51bf8f84dcd M	Jenkinsfile
+commit 205ed9745fa05736974ed912125a504b06ff4912
+tree 2d4692de40db5752575f6972fcf77b2adf86789b
+parent f8cc281f2dda7c7d61e0c2b36484e482bc51f821
+author deepakdev123 <118237041+deepakdev123@users.noreply.github.com> 2022-11-30 07:48:24 +0530
+committer GitHub <noreply@github.com> 2022-11-30 07:48:24 +0530
+
+    Update Jenkinsfile
+
+:100644 100644 63bf841d3dfffc98432a33e5fe9566c758517599 75e62856daea03f5907d4a45ca80c597594144ac M	Jenkinsfile

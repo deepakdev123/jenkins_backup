@@ -1,0 +1,23 @@
+Started on Nov 30, 2022, 7:16:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision b4b9d18662e783e975496a6a9220240b07406e0c (refs/remotes/origin/master)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote -h -- https://github.com/deepakdev123/hello-world-war.git # timeout=10
+Found 1 remote heads on https://github.com/deepakdev123/hello-world-war.git
+[poll] Latest remote head revision on refs/heads/master is: b4b9d18662e783e975496a6a9220240b07406e0c - already built by 18
+Using strategy: Default
+[poll] Last Built Revision: Revision b4b9d18662e783e975496a6a9220240b07406e0c (refs/remotes/origin/master)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git ls-remote -h -- https://github.com/deepakdev123/hello-world-war.git # timeout=10
+Found 1 remote heads on https://github.com/deepakdev123/hello-world-war.git
+[poll] Latest remote head revision on refs/heads/master is: b4b9d18662e783e975496a6a9220240b07406e0c - already built by 18
+Done. Took 1.2 sec
+No changes
